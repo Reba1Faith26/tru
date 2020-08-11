@@ -1,0 +1,92 @@
+/* the navigation coding start here*/
+.navigation-wrapper{
+    background-color:black;
+    height:50px;
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+}
+.span1,.span2,.span3{
+    height:3px;
+    background-color:white;
+    width:27px;
+}
+.span2,.span3{
+    margin-top:-13px;
+}
+.menu-btn{
+    position:absolute;
+    right:20px;
+    top:15px;
+}
+.nav-caption{
+    margin-top:10px;
+    color:white;
+}
+/* the navigation coding ended here*/
+
+/*body-coding start here*/
+.main-body-wrapper{
+    margin-top:20px;
+}
+.new-caption{
+    margin-top:10px;
+    font-weight:bold;
+    text-align:center;
+}
+.yanos-img{
+    margin-top:10px;
+}
+.yanos-caption{
+    font-weight:600;
+    font-size:17px;
+}
+/*body coding ended here*/
+
+@media screen and (min-width:116px) and (max-width:153px){
+    .nav-caption{
+        font-size:10px;
+        margin-top:17px;
+        font-weight:bolder;
+    }
+    .span1,.span2,.span3{
+        width:20px;
+    }
+    .menu-btn{
+        right:5px;
+    }
+    .producer,.heading6{
+        font-size:4px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:173px){
+    .producer,.heading6{
+        font-size:10px;
+        font-weight:bold;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:115px){
+    .new-caption,.yanos-caption{
+        font-weight:100;
+        font-size:10px;
+        margin-left:-7px;
+    }
+    .nav-caption{
+        font-size:10px;
+    }
+    .span1,.span2,.span3{
+        width:14px;
+    }
+    .menu-btn{
+        right:5px;
+    }
+    .nav-caption{
+        margin-top:16px;
+    }
+    .producer,.heading6{
+        font-size:4px;
+    }
+}
